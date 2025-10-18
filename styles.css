@@ -1,10 +1,10 @@
 :root {
-    --color-background: #f8f6f2;
-    --color-sand: #e8ded1;
-    --color-terracotta: #c97b63;
-    --color-green: #6a8b82;
-    --color-charcoal: #2d2a26;
-    --color-muted: #706b64;
+    --color-background: #f1f8f4;
+    --color-sand: #d9e8dc;
+    --color-terracotta: #3fa86f;
+    --color-green: #1f5d3f;
+    --color-charcoal: #0f1a14;
+    --color-muted: #2f4739;
     --color-white: #ffffff;
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Work Sans', sans-serif;
@@ -51,9 +51,9 @@ a {
     position: sticky;
     top: 0;
     z-index: 10;
-    background: rgba(248, 246, 242, 0.9);
+    background: rgba(241, 248, 244, 0.9);
     backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(15, 26, 20, 0.08);
 }
 
 .top-bar .container {
@@ -67,6 +67,7 @@ a {
     font-family: var(--font-heading);
     font-size: 1.5rem;
     letter-spacing: 0.08em;
+    color: var(--color-terracotta);
 }
 
 .main-nav {
@@ -117,12 +118,12 @@ a {
 .cta:hover,
 .cta:focus-visible {
     transform: translateY(-1px);
-    box-shadow: 0 12px 30px rgba(201, 123, 99, 0.3);
+    box-shadow: 0 12px 30px rgba(63, 168, 111, 0.35);
 }
 
 .link {
     font-weight: 600;
-    color: var(--color-muted);
+    color: var(--color-terracotta);
     text-decoration: underline;
 }
 
@@ -230,7 +231,7 @@ a {
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     align-items: center;
-    background: linear-gradient(135deg, rgba(106, 139, 130, 0.9), rgba(201, 123, 99, 0.9));
+    background: linear-gradient(135deg, #1f5d3fe8, #3fa86fe8);
     color: var(--color-white);
     padding: 3rem;
     border-radius: 24px;
@@ -277,7 +278,7 @@ a {
 .contact-form textarea {
     padding: 0.85rem 1rem;
     border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(31, 93, 63, 0.2);
     font-size: 1rem;
     font-family: var(--font-body);
 }
